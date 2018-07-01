@@ -1,0 +1,24 @@
+
+DESIGN SOLUTION
+
+	In the current project I chose C# language for building the project beacause it is the language that I control very well at the moment.
+ NUnit was required as well for creating the automation test. Re-sharper also helps in the project by analyze the quality of the code, eliminate the
+ errors, code style and formatting, debugging the solution and in the end runing the test.
+ 
+ PROJECT DESCRIPTION
+ 
+ For creating the automation test I created two async methods for calling the Apis. The first method calls "Shuffle the cards" Api for returning the 
+ initial "remaining" count. The secound method calls "Draw a card" Api with a random number ( between 1 and 5) and with the same deck id used in
+ the previous method. In the main program I created a test which is doing the required scenario, draw cards for 5 times with a random number (between 1-5) and
+ the subtration to see the remaining cards in the deck at the end
+ 
+ INSTRUCTIONS FOR RUN THE TEST
+ 
+ 1. Install NUnit package and Re-sharper tool
+ 2. Build the solution for checking is the build is success or not
+ 4. Press the right click on the green bullet point in the right side of the Main method
+ 
+ Note: I've attached a printscreen with the results
+
+ 
+ 
