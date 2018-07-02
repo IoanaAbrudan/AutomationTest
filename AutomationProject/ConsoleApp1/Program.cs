@@ -73,7 +73,7 @@ namespace Automation
         }
 
         [Test]
-        public static void ValidResponse_CheckCards()
+        public static void Main()
         {
             AutomationTest test = new AutomationTest();
             Random num = new Random();
